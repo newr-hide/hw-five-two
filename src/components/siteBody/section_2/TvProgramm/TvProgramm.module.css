@@ -1,0 +1,25 @@
+.title_tv {
+    font-family: 'Helvetica', 'Arial', Sans-serif;
+    font-size: 20px;
+    color: blue;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.tv_g {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tv_time {
+    margin-right: 10px;
+}
+
+.tv_text {
+    margin-right: 20px;
+}
+
+.tv_prod {
+    opacity: 0.3;
+}

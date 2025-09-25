@@ -1,0 +1,26 @@
+.title_section_three {
+    font-family: 'Helvetica', 'Arial', Sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+
+.img {
+    width: 15px;
+    height: 15px;
+}
+
+.section_group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-family: 'Helvetica', 'Arial', Sans-serif;
+    margin-left: 10px;  
+}
+
+.canal {
+    font-family: 'Helvetica', 'Arial', Sans-serif;
+    margin-left: 10px;
+    opacity: 0.5;
+}

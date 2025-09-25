@@ -1,0 +1,32 @@
+.weather {
+   
+   display: flex;
+   text-decoration: none;
+   color: black;
+   font-family: 'Helvetica', 'Arial', Sans-serif;
+}
+
+.img__weather {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    
+}
+
+.text_weather {
+    font-size: 30px;
+    margin-right: 10px;
+    font-family: 'Helvetica', 'Arial', Sans-serif;
+}
+
+.weather_text2 {
+    font-size: 17px;
+    font-family: 'Helvetica', 'Arial', Sans-serif;
+}
+
+.weather_title {
+    font-family: 'Helvetica', 'Arial', Sans-serif;
+    font-size: 20px;
+    color: blue;
+   
+}

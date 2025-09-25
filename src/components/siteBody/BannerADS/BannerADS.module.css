@@ -1,0 +1,12 @@
+.banner {
+    border: 1px solid black;
+    min-height: 60px; 
+    text-decoration: none;
+}
+
+.banner_img {
+    min-width: 1200px;
+    min-height: 60px; 
+    background-color: aquamarine;
+    text-align: center;
+}

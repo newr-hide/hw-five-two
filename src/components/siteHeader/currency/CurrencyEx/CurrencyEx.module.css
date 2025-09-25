@@ -1,0 +1,21 @@
+.curCurrens {
+    display: flex;
+    align-items: center;
+    padding-left: 35px;   
+}
+
+.titleCurCurrency {
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Helvetica', 'Arial', Sans-serif;
+    text-transform: capitalize;
+    margin-right: 7px;
+}
+
+.textCurCurrency {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Helvetica', 'Arial', Sans-serif;
+    text-transform: capitalize;
+}

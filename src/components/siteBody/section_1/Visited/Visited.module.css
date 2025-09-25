@@ -1,0 +1,20 @@
+.title_visited {
+    font-family: 'Helvetica', 'Arial', Sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+
+.visited_text_g {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.visited_text_title {
+    font-family: 'Helvetica', 'Arial', Sans-serif;
+    font-weight: 700; 
+    margin-right: 10px;
+}
+
+.visited_text {
+    font-family: 'Helvetica', 'Arial', Sans-serif;
+}

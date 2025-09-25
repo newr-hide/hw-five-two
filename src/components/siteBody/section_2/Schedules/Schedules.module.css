@@ -1,0 +1,11 @@
+.title_schel {
+    font-family: 'Helvetica', 'Arial', Sans-serif;
+    font-size: 20px;
+    color: blue;
+    font-weight: 600;
+}
+
+.text_schel {
+    font-family: 'Helvetica', 'Arial', Sans-serif;
+    margin-top: 10px;
+}

@@ -1,0 +1,10 @@
+.listItem {
+    text-decoration: none;
+    
+    margin: 10px;
+    font-size: 17px;
+    font-family: 'Helvetica', 'Arial', Sans-serif;
+    display: flex;
+    align-items: center;
+}
+
