@@ -4,7 +4,7 @@
 import S from './DateTime.module.css'
 
 
-export function DateTime(props) {
+export function DateTime() {
     const days = [0, "Понедельник", "Вторник",
         "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"]
 

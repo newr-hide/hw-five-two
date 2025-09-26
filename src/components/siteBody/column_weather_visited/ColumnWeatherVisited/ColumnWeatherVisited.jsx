@@ -3,14 +3,14 @@
  */
 import { Visited } from '../Visited/Visited'
 import Weather from '../Weather/Weather'
-import S from './SectionOne.module.css'
+import S from './ColumnWeatherVisited.module.css'
 
 
-export function SectionOne() {
+export function ColumnWeatherVisited() {
     return(
-        <div className={S.section_one}>
-        <Weather/>
-        <Visited/>
+        <div className={S.column}>
+            <Weather/>
+            <Visited/>
         </div>
     )
 }

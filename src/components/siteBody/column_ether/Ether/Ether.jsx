@@ -4,14 +4,14 @@
 import S from './Ether.module.css'
 
 
-export function Ether(props) {
+export function Ether() {
     const etherTV = [
         {label: 'https://img.icons8.com/?size=100&id=60450&format=png&color=228BE6', text: 'Управление как искуство', canal: 'Успех'},
         {label: 'https://img.icons8.com/?size=100&id=60450&format=png&color=228BE6', text: 'Ночь. Мир в это время', canal: 'Earch TV'},
         {label: 'https://img.icons8.com/?size=100&id=60450&format=png&color=228BE6', text: 'Music', canal: 'ТнТ Music'}]
     return(
         <div>
-        <h3 className={S.title_section_three}>Эфир</h3>
+            <h3 className={S.title_section_three}>Эфир</h3>
             {etherTV.map((item, index) => (
                 <div className={S.section_group} key={index}>
                 <img className={S.img} src={item.label} alt='label'/>

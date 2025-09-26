@@ -5,6 +5,7 @@ import S from './NewsItem.module.css'
 
 
 export function NewsItem({link, icon, text}) {
+    
     return(
         <div className={S.newsItem}>
             <a href={link} className={S.newsLink}>

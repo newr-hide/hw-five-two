@@ -2,10 +2,10 @@
  * Функция возвращает элементы навигационной панели сайта
  */
 import { ListItem } from '../ListItem/ListItem'
-import S from './Naw.module.css'
+import S from './Nav.module.css'
 
 
-export function Naw(props) {
+export function Nav() {
     const contentItem = [{link: '#', text: 'Видео'},
         {link: '#', text: 'Картинки'},
         {link: '#', text: 'Новости'},
@@ -16,7 +16,7 @@ export function Naw(props) {
         {link: '#', text: 'ещё'},]
     return(
         <div>
-            <ul className={S.naw_list}>
+            <ul className={S.nav_list}>
                 {contentItem.map((item, index) => <li className="list__item">{<ListItem key={index} {...item} />}</li>)}
                 
                 

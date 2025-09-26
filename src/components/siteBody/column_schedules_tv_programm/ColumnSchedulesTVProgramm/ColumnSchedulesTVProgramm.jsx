@@ -3,14 +3,14 @@
  */
 import { Schedules } from '../Schedules/Schedules'
 import { TvProgramm } from '../TvProgramm/TvProgramm'
-import S from './SectionTwo.module.css'
+import S from './ColumnSchedulesTVProgramm.module.css'
 
 
-export function SectionTwo() {
+export function ColumnSchedulesTVProgramm() {
     return(
-        <div className={S.section_two}>
-        <Schedules/>
-        <TvProgramm/>
+        <div className={S.column_schedules}>
+            <Schedules/>
+            <TvProgramm/>
         </div>
     )
 }
